@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #003366;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+main {
+    flex: 1;
+    background-color: #eeeeee;
+    color: #000000;
+    padding: 20px;
+}
+
+footer {
+    background-color: #002244;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Таблица */
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/* Блочная верстка */
+.block-item {
+    float: left;
+    border: 2px solid red;
+    margin-right: 8px;
+    padding: 8px;
+}
