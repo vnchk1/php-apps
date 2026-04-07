@@ -339,6 +339,14 @@ td, th{
 <p><?=implode(', ', array_map('formatNumber',$sorted))?></p>
 <p>Итераций: <?=$iterations?></p>
 
+<div style="margin-top:20px;">
+    <a href="index.php">
+        <button type="button" style="padding:8px 16px; cursor:pointer; border-radius:4px; border:1px solid #ccc; background:#fff;">
+            Вернуться на главную
+        </button>
+    </a>
+</div>
+
 <?php endif; ?>
 
 </div>
